@@ -1,0 +1,21 @@
+{
+  // ----------------------------------- FORMATTING -----------------------------------
+
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  // ------------------------------------ TESTS ------------------------------------
+
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.pytestPath": "${workspaceFolder}/pytest.bat"
+}
